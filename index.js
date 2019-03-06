@@ -6,6 +6,6 @@ function updateDriverWithKeyAndValue (driver, key, value) {
 }
 
 function destructivelyUpdateDriverWithKeyAndValue (driver, key, value) {
-  const obj = {street: "11 Broadway"};
+  const obj = {name: "Sam", address: "12 Broadway"};
   return Object.assign({}, obj);
 }
